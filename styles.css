@@ -1,0 +1,44 @@
+
+.body {
+	max-width: 1000px;
+	min-width: 480px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto; 
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	#tech p {
+		font-size: 0.8em;
+		text-align:  center;
+	}
+
+	#all-rows {
+		max-width: 60%;
+	}
+
+	#aboutText {
+		font-size: 0.93em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	
+}
+
+#tech img {
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
